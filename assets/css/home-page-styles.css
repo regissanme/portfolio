@@ -1,11 +1,24 @@
 @import url('/assets/css/reset.css');
 @import url('/assets/css/global.css');
 
-body{
+body {
     background-color: var(--primary-color);
 }
 
-.p-menu{
+body::before {
+    content: "";
+    background-image: url('/assets/images/backgroundimages/vector-mar-2020-68.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.2;
+    transition: background-image 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.p-menu {
     padding: 1rem 0;
     width: 100%;
     text-align: center;
@@ -16,12 +29,14 @@ body{
     display: inline-block;
     text-transform: uppercase;
     margin: 0 1.25rem;
+    filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.9));
 }
 
 .p-menu__icon {
     width: 2.5rem;
     margin: 0 1.25rem;
     vertical-align: middle;
+    filter: drop-shadow(0 2px 8px rgba(255, 255, 255, 0.5));
 }
 
 .p-container {
@@ -32,24 +47,27 @@ body{
     perspective: 3000px;
 }
 
-.p-card{
+.p-card {
     border: 0.5rem solid white;
     width: 100%;
     height: 70vh;
     position: absolute;
     transition: filter .5s ease-in-out;
 }
-.p-card:nth-child(1){
+
+.p-card:nth-child(1) {
     transform: rotateY(0deg) translateZ(50vw);
 }
-.p-card:nth-child(2){
+
+.p-card:nth-child(2) {
     transform: rotateY(120deg) translateZ(50vw);
 }
-.p-card:nth-child(3){
+
+.p-card:nth-child(3) {
     transform: rotateY(240deg) translateZ(50vw);
 }
 
-.p-card__background{
+.p-card__background {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -58,7 +76,7 @@ body{
     transition: opacity 1s ease-in-out;
 }
 
-.p-card__image{
+.p-card__image {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -66,7 +84,8 @@ body{
     transition: 1s ease-in-out;
 }
 
-.p-card__title{
+.p-card__title {
+    color: rgb(255, 255, 255);
     font-size: 2rem;
     text-transform: uppercase;
     text-align: center;
@@ -74,6 +93,7 @@ body{
     width: 100%;
     bottom: 0;
     transition: bottom 1s ease-in-out;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
 }
 
 .p-controller {
@@ -86,7 +106,7 @@ body{
     width: 100%;
 }
 
-.p-controller__button{
+.p-controller__button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,15 +123,15 @@ body{
     transition: transform 0.3s ease-in-out;
 }
 
-.p-controller__button:hover{
+.p-controller__button:hover {
     transform: scale(1.1);
 }
 
-.p-controller__button:nth-child(2){
+.p-controller__button:nth-child(2) {
     margin: 0 3.75rem;
 }
 
-.p-controller__button--active{
+.p-controller__button--active {
     background-color: rgb(0, 0, 0);
     color: var(--primary-color);
     border: 0.1875rem solid var(--primary-color);
@@ -138,16 +158,16 @@ body{
     filter: drop-shadow(30px 10px 4px rgba(0, 0, 0, .5));
 }
 
-body#card-01-hovered::before {
-    background-image: url('/assets/images/pic-sm-bg-03.jpg');
+body#card-1-hovered::before {
+    background-image: url('/assets/images/bg-java-code.webp');
 }
 
-body#card-02-hovered::before {
-    background-image: url('/assets/images/pic-sm-bg-03.jpg');
+body#card-2-hovered::before {
+    background-image: url('/assets/images/shutterstock_graduates.jpg');
 }
 
-body#card-03-hovered::before {
-    background-image: url('/assets/images/pic-sm-bg-03.jpg');
+body#card-3-hovered::before {
+    background-image: url('/assets/images/matrix_1.webp');
 }
 
 body[id^="card-"]::before {
@@ -156,6 +176,10 @@ body[id^="card-"]::before {
 
 body[id^="card-"] .p-card:not(.p-card--hovered) {
     filter: grayscale(100%);
+}
+
+.p-card--hovered .p-card__title {
+    bottom: 50%;
 }
 
 .p-cards-carousel {

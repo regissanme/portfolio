@@ -1,0 +1,175 @@
+@import url('reset.css');
+@import url('global.css');
+@import url('components/_navigator.css');
+@import url('components/_pills.css');
+@import url('components/_link-button.css');
+@import url('components/_gallery.css');
+@import url('components/codigo.css');
+/* @import url('components/_contact-circle-open-details.css'); */
+@import url('components/_contact-circle-test.css');
+
+
+section {
+  top: 10px;
+}
+
+.s-wrapper {
+  display: flex;
+  height: 100vh;
+  flex-flow: row nowrap;
+  /* background-color: aqua;  */
+}
+
+.s-wrapper video {
+  position: fixed;
+  width: 100%;
+}
+
+.s-wrapper .s-left-column {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  padding-right: 50px;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.s-wrapper .s-main-content {
+  height: 100%;
+  width: 100%;
+  padding-left: 130px;
+  position: relative;
+}
+
+.s-wrapper .s-main-content__top {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.s-wrapper .s-main-content__bottom {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.s-wrapper .s-main-content .s-title {
+  width: 100%;
+  margin-top: 50px;
+  margin-left: 0;
+  margin-bottom: 30px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.s-wrapper .s-main-content .s-logo img {
+  /* margin-top: 50px; */
+  margin-top: 50px;
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+
+.s-wrapper .s-main-content .s-titulo {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.s-wrapper .s-main-content .s-titulo h1 {
+  font-size: 70px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  color: #636363;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 0px #2c2c2c,
+               1px 2px 0px #2c2c2c,
+               1px 3px 0px #2c2c2c,
+               1px 4px 0px #2c2c2c,
+               1px 5px 0px #2c2c2c,
+               1px 6px 0px #2c2c2c,
+               1px 10px 5px rgba(16, 16, 16, 0.5),
+               1px 15px 10px rgba(16, 16, 16, 0.4),
+               1px 20px 30px rgba(16, 16, 16, 0.3),
+               1px 25px 50px rgba(16, 16, 16, 0.2);
+}
+
+.s-wrapper .s-main-content .s-titulo h3 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, .7);
+  max-width: 90%;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 0px #014416,
+               1px 2px 0px #014416,
+               1px 3px 0px #014416,
+               1px 4px 0px #014416,
+               1px 5px 0px #014416,
+               1px 6px 0px #014416,
+               1px 10px 5px rgba(16, 16, 16, 0.5),
+               1px 15px 10px rgba(16, 16, 16, 0.4),
+               1px 20px 30px rgba(16, 16, 16, 0.3),
+               1px 25px 50px rgba(16, 16, 16, 0.2);
+}
+
+
+.s-wrapper .s-main-content__top .s-description {
+  background-color: rgba(0, 0, 0, .7);
+  max-width: 90%;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.s-wrapper .s-main-content__top .s-description .s-description__text p {
+  color: white;
+  line-height: 170%;
+}
+
+.s-wrapper .s-main-content__top .s-description .s-description__text ul li {
+  color: white;
+  line-height: 170%;
+  margin-left: 60px;
+  list-style-type: none;
+}
+
+.s-wrapper .s-main-content__top .s-description .pills {
+  margin-bottom: 20px;
+}
+
+.s-wrapper .s-main-content .s-links {
+  padding: 20px;
+  padding-left: 0;
+}
+
+.s-wrapper .s-main-content .s-links ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.s-spiderman-01-01 {
+  background-image: url('../images/spiderman-tobey/movie-01/background.png');
+  background-size: cover;
+}
+
+.s-spiderman-01-02 {
+  background-image: url('../images/spiderman-tobey/movie-02/background.png');
+  background-size: cover;
+}
+
+.s-spiderman-01-03 {
+  background-image: url('../images/spiderman-tobey/movie-03/background.png');
+  background-size: cover;
+}
