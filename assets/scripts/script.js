@@ -1,13 +1,13 @@
 function handleMouseEnter() {
     this.classList.add('p-card--hovered');
     document.body.id = `${this.id}-hovered`;
-    console.log('mouse entered...');
+    // console.log('mouse entered...');
 }
 
 function handleMouseLeave() {
     this.classList.remove('p-card--hovered');
     document.body.id = '';
-    console.log('mouse leaved...')
+    // console.log('mouse leaved...')
 }
 
 function addEventListenersToCards() {
