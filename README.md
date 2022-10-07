@@ -1,5 +1,5 @@
-<h1>Meu Portifólio </h1>
-<> Este portifólio teve como inspiração a incrível Live Coding oferecida pela DIO - <a href="https://dio.me/"><strong>🔗 Digital Innovation One</strong></a>.   
+# Meu Portifólio  
+Este portifólio teve como inspiração a incrível Live Coding oferecida pela DIO - <a href="https://dio.me/"><strong>🔗 Digital Innovation One</strong></a>.   
 
 Foi apresentado e desenvolvido um site sobre o multiverso do Spider-man, apenas com html, css e javascript puro.   
 
