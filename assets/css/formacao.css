@@ -1,9 +1,9 @@
-@import url('internal.css');
+@import url('./internal.css');
 
 
 body::before{
     content: "";
-    background-image: url('/assets/images/bg-formacao.jpg'); 
+    background-image: url('./assets/images/bg-formacao.jpg'); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -1,8 +1,8 @@
-@import url('internal.css');
+@import url('./internal.css');
 
 body::before{
     content: "";
-    background-image: url('../images/bg-sobre.png');
+    background-image: url('./images/bg-sobre.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

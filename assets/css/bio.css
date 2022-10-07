@@ -1,8 +1,8 @@
-@import url('internal.css');
+@import url('./internal.css');
 
 body::before{
     content: "";
-    background-image: url('/assets/images/bg-bio.webp'); 
+    background-image: url('./assets/images/bg-bio.webp'); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
