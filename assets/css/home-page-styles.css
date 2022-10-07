@@ -1,6 +1,6 @@
-@import url('./reset.css');
-@import url('/assets/css/global.css');
-@import url('/assets/css/internal.css');
+@import url('reset.css');
+@import url('./../assets/css/global.css');
+@import url('assets/css/internal.css');
 
 body {
     background-color: var(--primary-color);
