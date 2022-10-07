@@ -1,5 +1,6 @@
 @import url('reset.css');
-@import url('./../assets/css/global.css');
+@import url('/global.css');
+/* @import url('./../assets/css/global.css'); */
 @import url('assets/css/internal.css');
 
 body {
