@@ -4,7 +4,7 @@
 body::before{
     content: "";
     /* background-image: url('/assets/images/spider-man/movie-01/background.png'); */
-    background-image: url('/assets/images/bg-java-code.webp'); 
+    background-image: url('/assets/images/bg-experiencias.webp'); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
