@@ -8,7 +8,7 @@ body {
 
 body::before {
     content: "";
-    background-image: url('./../../images/High-Res-Cold-Carbon-Fiber-Texture.webp');    
+    background-image: url('./../assets/images/High-Res-Cold-Carbon-Fiber-Texture.webp');    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
