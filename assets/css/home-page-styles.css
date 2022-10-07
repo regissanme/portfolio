@@ -8,7 +8,7 @@ body {
 
 body::before {
     content: "";
-    background-image: url('./assets/images/High-Res-Cold-Carbon-Fiber-Texture.webp');    
+    background-image: url('../images/High-Res-Cold-Carbon-Fiber-Texture.webp');    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -140,15 +140,15 @@ body::before {
 }
 
 body#card-1-hovered::before {
-    background-image: url('./assets/images/bg-experiencias.webp');
+    background-image: url('../images/bg-experiencias.webp');
 }
 
 body#card-2-hovered::before {
-    background-image: url('./assets/images/bg-formacao.jpg');
+    background-image: url('../images/bg-formacao.jpg');
 }
 
 body#card-3-hovered::before {
-    background-image: url('./assets/images/bg-bio.webp');
+    background-image: url('../images/bg-bio.webp');
 }
 
 body[id^="card-"]::before {
