@@ -1,7 +1,7 @@
 @import url('reset.css');
 @import url('/global.css');
 /* @import url('./../assets/css/global.css'); */
-@import url('assets/css/internal.css');
+@import url('internal.css');
 
 body {
     background-color: var(--primary-color);
@@ -9,7 +9,7 @@ body {
 
 body::before {
     content: "";
-    background-image: url('../assets/images/High-Res-Cold-Carbon-Fiber-Texture.webp');    
+    background-image: url('../images/High-Res-Cold-Carbon-Fiber-Texture.webp');    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
