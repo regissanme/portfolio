@@ -1,0 +1,51 @@
+.c-titulo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: var(--title-color);
+    max-width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.c-titulo h1 {
+    font-size: 70px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    /* color: #636363; */
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 0px var(--primary-color),
+        1px 2px 0px var(--primary-color),
+        1px 3px 0px var(--primary-color),
+        1px 4px 0px var(--primary-color),
+        1px 5px 0px var(--primary-color),
+        1px 6px 0px var(--primary-color),
+        1px 10px 5px rgba(175, 175, 175, 0.5),
+        1px 15px 10px rgba(175, 175, 175, 0.4),
+        1px 20px 30px rgba(175, 175, 175, 0.3),
+        1px 25px 50px rgba(175, 175, 175, 0.2);
+}
+
+.c-titulo h3 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, .7);
+    max-width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 0px #014416,
+        1px 2px 0px #014416,
+        1px 3px 0px #014416,
+        1px 4px 0px #014416,
+        1px 5px 0px #014416,
+        1px 6px 0px #014416,
+        1px 10px 5px rgba(16, 16, 16, 0.5),
+        1px 15px 10px rgba(16, 16, 16, 0.4),
+        1px 20px 30px rgba(16, 16, 16, 0.3),
+        1px 25px 50px rgba(16, 16, 16, 0.2);
+}
