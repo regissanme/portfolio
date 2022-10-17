@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
 
-:root{
+:root {
     /* --primary-color: #00b93e; */
     /* --primary-color: rgb(0, 0, 80); */
     --primary-color: rgb(85, 139, 47);
-    --secondary-color: #8BC34A;
-    --title-color: rgba(0,0,0, .7);
+    --secondary-color: rgb(139, 195, 74);
+    --title-bg-color: rgba(0, 0, 0, .7);
+    --title-pri-color: rgb(111, 168, 70);
+    --title-sec-color: rgb(77, 110, 39);
     /* --secondary-color: rgb(138, 90, 0); */
     /* --secondary-color: #80CBC4; */
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }

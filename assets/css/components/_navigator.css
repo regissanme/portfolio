@@ -71,5 +71,16 @@
   
   .navigator .navigator__icon{
     position: absolute;
-    top: -50px;
+    color: white;
+    /* border: solid 2px white; */
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    /* background-color: black; */
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* top: -50px; */
+    bottom: -25px;
   }
