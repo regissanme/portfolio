@@ -4,8 +4,9 @@
 :root{
     /* --primary-color: #00b93e; */
     /* --primary-color: rgb(0, 0, 80); */
-    --primary-color: #558B2F;
+    --primary-color: rgb(85, 139, 47);
     --secondary-color: #8BC34A;
+    --title-color: rgba(0,0,0, .7);
     /* --secondary-color: rgb(138, 90, 0); */
     /* --secondary-color: #80CBC4; */
 }
