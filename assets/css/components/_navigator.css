@@ -71,6 +71,11 @@
   
   .navigator .navigator__icon{
     position: absolute;
+    top: -60px;
+  }
+
+  .navigator .navigator__back-top{
+    position: absolute;
     color: white;
     /* border: solid 2px white; */
     width:30px;
@@ -81,6 +86,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* top: -50px; */
     bottom: -25px;
   }
