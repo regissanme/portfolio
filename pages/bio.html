@@ -11,6 +11,7 @@
 </head>
 
 <body>
+  <section id="00"></section>
   <nav class="p-menu" id="top">
     <ul>
       <li class="p-menu__item"><a href="../pages/experiencias.html">Experiências</a></li>
@@ -30,6 +31,9 @@
 
     <div class="s-left-column">
       <nav class="navigator">
+        <div class="navigator__icon">
+          <a href="#00" title="Início da página"><i class="fa fa-arrow-up"></i></a>
+        </div>
         <ul>
           <li><a href="#01" title="Iníco de Tudo">01</a></li>
           <li><a href="#02" title="Sobre Mim">02</a></li>
@@ -41,9 +45,8 @@
 
     <div class="s-main-content">
       <div class="s-main-content__top">
-        <div class="s-titulo">
+        <div class="c-titulo">
           <h1>Biografia</h1>
-          <h3>Reginaldo Santos de Medeiros</h3>
         </div>
 
         <section id="01">
@@ -59,11 +62,13 @@
               <pre>
                 <p>
                 <code><span class="kw">public static void main</span>(<span class="kw">String</span>[] args) {<br>
+                  <span class="kw">String</span> name         = <span class="value">"Reginaldo Santos de Medeiros."</span> ;
                   <span class="kw">String</span> born         = <span class="value">"Nasci no dia 14 de Novembro."</span> ;
                   <span class="kw">String</span> placeOfBirth = <span class="value">"Em Goiânia, a capital do Estado de Goiás."</span>;
                   <span class="kw">String</span> whereILive   = <span class="value">"Sou morador de Goiânia, até os dias atuais"</span>;  
+                  <span class="kw">String</span> nickname     = <span class="value">"Regis Sanme"</span>;  
                   
-                  <span class="kw">System.out.println</span>(born + placeOfBirth + whereILive);
+                  <span class="kw">System.out.println</span>(name + born + placeOfBirth + whereILive + nickname);
         } </code> </p>  </pre>
             </div>
           </div>
