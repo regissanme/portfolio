@@ -1,5 +1,5 @@
-# Meu Portifólio  
-Este portifólio teve como inspiração a incrível Live Coding oferecida pela DIO - <a href="https://dio.me/"><strong>🔗 Digital Innovation One</strong></a>.   
+# Meu Portfólio  
+Este portfólio teve como inspiração a incrível Live Coding oferecida pela DIO - <a href="https://dio.me/"><strong>🔗 Digital Innovation One</strong></a>.   
 
 Foi apresentado e desenvolvido um site sobre o multiverso do Spider-man, apenas com html, css e javascript puro.   
 
@@ -32,7 +32,7 @@ A anfitriã da Live Coding foi a Juliana da DIO.
 Como a Live Coding foi muito inspiradora, e sugerido pelos autores para fazermos alterações, então fiz as minhas:
 
 - Mudei o tema, as cores e fiz as alterações para refletir o meu currículo.
-- Fiz alterações na home page, colocando imagens e menus de acordo com os requisitos do portifólio.</li>
+- Fiz alterações na home page, colocando imagens e menus de acordo com os requisitos do portfólio.</li>
 - Também alterei os pills e adicionei os mini pills com cor alterada.   
 
 <br>  
@@ -86,7 +86,7 @@ são de propriedade de seus respectivos canais e com fins de distribuição para
 
 ------------  
 ## 🤝 Contribuições
-#### Este portifólio foi criado para expor meu currículo, então fique à vontade para cloná-lo, só peço que não utilize as imagens pessoais. E se possível, que possa sugerir mudanças ou correções.
+#### Este portfólio foi criado para expor meu currículo, então fique à vontade para cloná-lo, só peço que não utilize as imagens pessoais. E se possível, que possa sugerir mudanças ou correções.
 #### Todo comentário é muito bem vindo!🤝
 
 Se possível:
